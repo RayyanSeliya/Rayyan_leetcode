@@ -24,6 +24,6 @@ jobs:
           commit_message: 'Update README with latest solutions'
           branch: main
           push_options: '--force'
-          repository: github.com/${{ github.repository }}
+        
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
