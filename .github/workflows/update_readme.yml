@@ -13,8 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT }}
+          fetch-depth: 1
+          token: ${{ secrets.FINE}}
           persist-credentials: true
+      - name: Git Config
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -29,5 +34,6 @@ jobs:
           commit_message: 'Update README with latest solutions'
           branch: main
           push_options: '--force'
+          token: ${{ secrets.FINE}}
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.FINE}}
