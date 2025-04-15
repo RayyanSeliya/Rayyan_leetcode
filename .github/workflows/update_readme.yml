@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install -r requirements.txt # Create a requirements.txt
+        run: pip install -r requirements.txt
       - name: Update README
         run: python update_readme.py
       - name: Commit and push changes
@@ -23,3 +23,7 @@ jobs:
         with:
           commit_message: 'Update README with latest solutions'
           branch: main
+          push_options: '--force'
+          repository: github.com/${{ github.repository }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKEN
