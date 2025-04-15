@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install -r requirements.txt # Create a requirements.txt
+      - name: Update README
+        run: python update_readme.py
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update README with latest solutions'
+          branch: main
