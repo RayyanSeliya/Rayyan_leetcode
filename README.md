@@ -6,18 +6,24 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 3 |
-| Medium | 7 |
+| Easy | 7 |
+| Medium | 9 |
 | Hard | 0 |
-| **Total** | **10** |
+| **Total** | **16** |
 
 ## Problems
 
 | # | Problem | Difficulty | Topics |
 |---|---------|------------|--------|
 | 0038 | [Count And Say](0038-count-and-say/0038-count-and-say.cpp) | 🟡 Medium | String |
+| 0066 | [Plus One](0066-plus-one/0066-plus-one.cpp) | 🟢 Easy | Array |
+| 0122 | [Best Time To Buy And Sell Stock Ii](0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) | 🟡 Medium | Array |
 | 0198 | [House Robber](0198-house-robber/0198-house-robber.cpp) | 🟡 Medium | Array |
+| 0944 | [Delete Columns To Make Sorted](0944-delete-columns-to-make-sorted/0944-delete-columns-to-make-sorted.cpp) | 🟢 Easy | Array |
+| 0955 | [Delete Columns To Make Sorted Ii](0955-delete-columns-to-make-sorted-ii/0955-delete-columns-to-make-sorted-ii.cpp) | 🟡 Medium | Array, String |
+| 0961 | [N Repeated Element In Size 2N Array](0961-n-repeated-element-in-size-2n-array/0961-n-repeated-element-in-size-2n-array.cpp) | 🟢 Easy | Array |
 | 1295 | [Find Numbers With Even Number Of Digits](1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) | 🟢 Easy | Array |
+| 1351 | [Count Negative Numbers In A Sorted Matrix](1351-count-negative-numbers-in-a-sorted-matrix/1351-count-negative-numbers-in-a-sorted-matrix.cpp) | 🟢 Easy | Matrix |
 | 1399 | [Count Largest Group](1399-count-largest-group/1399-count-largest-group.cpp) | 🟢 Easy | N/A |
 | 1534 | [Count Good Triplets](1534-count-good-triplets/1534-count-good-triplets.cpp) | 🟢 Easy | Array |
 | 1922 | [Count Good Numbers](1922-count-good-numbers/1922-count-good-numbers.cpp) | 🟡 Medium | String |
