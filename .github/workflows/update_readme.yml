@@ -10,30 +10,71 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          token: ${{ secrets.FINE}}
           persist-credentials: true
-      - name: Git Config
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Update README
-        run: python update_readme.py
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'Update README with latest solutions'
-          branch: main
-          push_options: '--force'
-          token: ${{ secrets.FINE}}
+        run: pip install -r requirements.txt || true
+
+      - name: Run update_readme.py (log output)
+        id: run_script
+        run: |
+          echo "=== Running update_readme.py ==="
+          python update_readme.py 2>&1 | tee update_readme.log
+          echo "=== Script exit code: $?: end ==="
+          # Save whether file changed so later steps can use it
+          git status --porcelain > script_git_status.txt || true
+          echo "GIT_STATUS<<EOF" >> $GITHUB_OUTPUT
+          cat script_git_status.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Show repository snapshot & git status
+        if: always()
+        run: |
+          echo "Working directory:"
+          pwd
+          ls -la
+          echo
+          echo "Git status (porcelain):"
+          cat script_git_status.txt || true
+          echo
+          echo "Unstaged diff (if any):"
+          git --no-pager diff || true
+          echo
+          echo "Files changed (tracked):"
+          git ls-files -m || true
+
+      - name: Commit and push changes (only if changed)
+        if: always()
+        run: |
+          # Configure committer identity for local commit (auto-commit actions often use this)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage README (or stage all changes). Adjust path if your script updates other files.
+          git add README.md || true
+          git add .github/README.md || true
+          git add . || true
+
+          # If there is nothing staged, exit gracefully
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update README with latest solutions (automated)" || true
+          echo "Pushing changes to origin/main..."
+          # push using the token that checkout configured (persist-credentials: true).
+          git push origin HEAD:main
         env:
-          GITHUB_TOKEN: ${{ secrets.FINE}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
