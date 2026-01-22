@@ -9,6 +9,7 @@ Collection of my LeetCode solutions in C++
 | Easy | 7 |
 | Medium | 9 |
 | Hard | 0 |
+| Unknown | 0 |
 | **Total** | **16** |
 
 ## Problems
