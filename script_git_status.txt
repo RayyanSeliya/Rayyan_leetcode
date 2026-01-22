@@ -1,1 +1,3 @@
+ M README.md
  M script_git_status.txt
+ M update_readme.log

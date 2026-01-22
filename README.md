@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 7 |
+| Easy | 8 |
 | Medium | 9 |
 | Hard | 0 |
 | Unknown | 0 |
-| **Total** | **16** |
+| **Total** | **17** |
 
 ## Problems
 
@@ -30,5 +30,6 @@ Collection of my LeetCode solutions in C++
 | 1922 | [Count Good Numbers](1922-count-good-numbers/1922-count-good-numbers.cpp) | 🟡 Medium | String |
 | 2563 | [Count The Number Of Fair Pairs](2563-count-the-number-of-fair-pairs/2563-count-the-number-of-fair-pairs.cpp) | 🟡 Medium | Array |
 | 2799 | [Count Complete Subarrays In An Array](2799-count-complete-subarrays-in-an-array/2799-count-complete-subarrays-in-an-array.cpp) | 🟡 Medium | Array |
+| 3507 | [Minimum Pair Removal To Sort Array I](3507-minimum-pair-removal-to-sort-array-i/3507-minimum-pair-removal-to-sort-array-i.cpp) | 🟢 Easy | Array |
 | 3522 | [Calculate Score After Performing Instructions](3522-calculate-score-after-performing-instructions/3522-calculate-score-after-performing-instructions.cpp) | 🟡 Medium | N/A |
 | 3523 | [Make Array Non Decreasing](3523-make-array-non-decreasing/3523-make-array-non-decreasing.cpp) | 🟡 Medium | Array |
