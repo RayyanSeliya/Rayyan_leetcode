@@ -1,2 +1,1 @@
-?? script_git_status.txt
-?? update_readme.log
+ M script_git_status.txt
