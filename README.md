@@ -7,10 +7,10 @@ Collection of my LeetCode solutions in C++
 | Difficulty | Count |
 |------------|-------|
 | Easy | 8 |
-| Medium | 10 |
+| Medium | 11 |
 | Hard | 1 |
 | Unknown | 0 |
-| **Total** | **19** |
+| **Total** | **20** |
 
 ## Problems
 
@@ -20,6 +20,7 @@ Collection of my LeetCode solutions in C++
 | 0066 | [Plus One](0066-plus-one/0066-plus-one.cpp) | 🟢 Easy | Array |
 | 0122 | [Best Time To Buy And Sell Stock Ii](0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) | 🟡 Medium | Array |
 | 0198 | [House Robber](0198-house-robber/0198-house-robber.cpp) | 🟡 Medium | Array |
+| 0881 | [Boats To Save People](0881-boats-to-save-people/0881-boats-to-save-people.cpp) | 🟡 Medium | Array |
 | 0944 | [Delete Columns To Make Sorted](0944-delete-columns-to-make-sorted/0944-delete-columns-to-make-sorted.cpp) | 🟢 Easy | Array |
 | 0955 | [Delete Columns To Make Sorted Ii](0955-delete-columns-to-make-sorted-ii/0955-delete-columns-to-make-sorted-ii.cpp) | 🟡 Medium | Array, String |
 | 0961 | [N Repeated Element In Size 2N Array](0961-n-repeated-element-in-size-2n-array/0961-n-repeated-element-in-size-2n-array.cpp) | 🟢 Easy | Array |
