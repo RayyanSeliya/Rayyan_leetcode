@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 8 |
+| Easy | 9 |
 | Medium | 11 |
 | Hard | 1 |
 | Unknown | 0 |
-| **Total** | **20** |
+| **Total** | **21** |
 
 ## Problems
 
@@ -30,6 +30,7 @@ Collection of my LeetCode solutions in C++
 | 1534 | [Count Good Triplets](1534-count-good-triplets/1534-count-good-triplets.cpp) | 🟢 Easy | Array |
 | 1877 | [Minimize Maximum Pair Sum In Array](1877-minimize-maximum-pair-sum-in-array/1877-minimize-maximum-pair-sum-in-array.cpp) | 🟡 Medium | Array |
 | 1922 | [Count Good Numbers](1922-count-good-numbers/1922-count-good-numbers.cpp) | 🟡 Medium | String |
+| 1984 | [Minimum Difference Between Highest And Lowest Of K Scores](1984-minimum-difference-between-highest-and-lowest-of-k-scores/1984-minimum-difference-between-highest-and-lowest-of-k-scores.cpp) | 🟢 Easy | Array |
 | 2563 | [Count The Number Of Fair Pairs](2563-count-the-number-of-fair-pairs/2563-count-the-number-of-fair-pairs.cpp) | 🟡 Medium | Array |
 | 2799 | [Count Complete Subarrays In An Array](2799-count-complete-subarrays-in-an-array/2799-count-complete-subarrays-in-an-array.cpp) | 🟡 Medium | Array |
 | 3507 | [Minimum Pair Removal To Sort Array I](3507-minimum-pair-removal-to-sort-array-i/3507-minimum-pair-removal-to-sort-array-i.cpp) | 🟢 Easy | Array |
