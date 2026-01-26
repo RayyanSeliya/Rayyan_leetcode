@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 9 |
+| Easy | 10 |
 | Medium | 11 |
 | Hard | 1 |
 | Unknown | 0 |
-| **Total** | **21** |
+| **Total** | **22** |
 
 ## Problems
 
@@ -24,6 +24,7 @@ Collection of my LeetCode solutions in C++
 | 0944 | [Delete Columns To Make Sorted](0944-delete-columns-to-make-sorted/0944-delete-columns-to-make-sorted.cpp) | 🟢 Easy | Array |
 | 0955 | [Delete Columns To Make Sorted Ii](0955-delete-columns-to-make-sorted-ii/0955-delete-columns-to-make-sorted-ii.cpp) | 🟡 Medium | Array, String |
 | 0961 | [N Repeated Element In Size 2N Array](0961-n-repeated-element-in-size-2n-array/0961-n-repeated-element-in-size-2n-array.cpp) | 🟢 Easy | Array |
+| 1200 | [Minimum Absolute Difference](1200-minimum-absolute-difference/1200-minimum-absolute-difference.cpp) | 🟢 Easy | Array |
 | 1295 | [Find Numbers With Even Number Of Digits](1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) | 🟢 Easy | Array |
 | 1351 | [Count Negative Numbers In A Sorted Matrix](1351-count-negative-numbers-in-a-sorted-matrix/1351-count-negative-numbers-in-a-sorted-matrix.cpp) | 🟢 Easy | Matrix |
 | 1399 | [Count Largest Group](1399-count-largest-group/1399-count-largest-group.cpp) | 🟢 Easy | N/A |
