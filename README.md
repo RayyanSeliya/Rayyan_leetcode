@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 11 |
+| Easy | 12 |
 | Medium | 12 |
 | Hard | 1 |
 | Unknown | 0 |
-| **Total** | **24** |
+| **Total** | **25** |
 
 ## Problems
 
@@ -35,6 +35,7 @@ Collection of my LeetCode solutions in C++
 | 1984 | [Minimum Difference Between Highest And Lowest Of K Scores](1984-minimum-difference-between-highest-and-lowest-of-k-scores/1984-minimum-difference-between-highest-and-lowest-of-k-scores.cpp) | 🟢 Easy | Array |
 | 2563 | [Count The Number Of Fair Pairs](2563-count-the-number-of-fair-pairs/2563-count-the-number-of-fair-pairs.cpp) | 🟡 Medium | Array |
 | 2799 | [Count Complete Subarrays In An Array](2799-count-complete-subarrays-in-an-array/2799-count-complete-subarrays-in-an-array.cpp) | 🟡 Medium | Array |
+| 3010 | [Divide An Array Into Subarrays With Minimum Cost I](3010-divide-an-array-into-subarrays-with-minimum-cost-i/3010-divide-an-array-into-subarrays-with-minimum-cost-i.cpp) | 🟢 Easy | Array |
 | 3507 | [Minimum Pair Removal To Sort Array I](3507-minimum-pair-removal-to-sort-array-i/3507-minimum-pair-removal-to-sort-array-i.cpp) | 🟢 Easy | Array |
 | 3510 | [Minimum Pair Removal To Sort Array Ii](3510-minimum-pair-removal-to-sort-array-ii/3510-minimum-pair-removal-to-sort-array-ii.cpp) | 🔴 Hard | Array |
 | 3522 | [Calculate Score After Performing Instructions](3522-calculate-score-after-performing-instructions/3522-calculate-score-after-performing-instructions.cpp) | 🟡 Medium | N/A |
