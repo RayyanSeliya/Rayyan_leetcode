@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 12 |
+| Easy | 13 |
 | Medium | 12 |
 | Hard | 2 |
 | Unknown | 0 |
-| **Total** | **26** |
+| **Total** | **27** |
 
 ## Problems
 
@@ -41,4 +41,5 @@ Collection of my LeetCode solutions in C++
 | 3510 | [Minimum Pair Removal To Sort Array Ii](3510-minimum-pair-removal-to-sort-array-ii/3510-minimum-pair-removal-to-sort-array-ii.cpp) | 🔴 Hard | Array |
 | 3522 | [Calculate Score After Performing Instructions](3522-calculate-score-after-performing-instructions/3522-calculate-score-after-performing-instructions.cpp) | 🟡 Medium | N/A |
 | 3523 | [Make Array Non Decreasing](3523-make-array-non-decreasing/3523-make-array-non-decreasing.cpp) | 🟡 Medium | Array |
+| 3637 | [Trionic Array I](3637-trionic-array-i/3637-trionic-array-i.cpp) | 🟢 Easy | Array |
 | 3650 | [Minimum Cost Path With Edge Reversals](3650-minimum-cost-path-with-edge-reversals/3650-minimum-cost-path-with-edge-reversals.cpp) | 🟡 Medium | Array, Graph |
