@@ -7,10 +7,10 @@ Collection of my LeetCode solutions in C++
 | Difficulty | Count |
 |------------|-------|
 | Easy | 14 |
-| Medium | 12 |
+| Medium | 13 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **29** |
+| **Total** | **30** |
 
 ## Problems
 
@@ -30,6 +30,7 @@ Collection of my LeetCode solutions in C++
 | 1351 | [Count Negative Numbers In A Sorted Matrix](1351-count-negative-numbers-in-a-sorted-matrix/1351-count-negative-numbers-in-a-sorted-matrix.cpp) | 🟢 Easy | Matrix |
 | 1399 | [Count Largest Group](1399-count-largest-group/1399-count-largest-group.cpp) | 🟢 Easy | N/A |
 | 1534 | [Count Good Triplets](1534-count-good-triplets/1534-count-good-triplets.cpp) | 🟢 Easy | Array |
+| 1653 | [Minimum Deletions To Make String Balanced](1653-minimum-deletions-to-make-string-balanced/1653-minimum-deletions-to-make-string-balanced.cpp) | 🟡 Medium | String |
 | 1877 | [Minimize Maximum Pair Sum In Array](1877-minimize-maximum-pair-sum-in-array/1877-minimize-maximum-pair-sum-in-array.cpp) | 🟡 Medium | Array |
 | 1922 | [Count Good Numbers](1922-count-good-numbers/1922-count-good-numbers.cpp) | 🟡 Medium | String |
 | 1984 | [Minimum Difference Between Highest And Lowest Of K Scores](1984-minimum-difference-between-highest-and-lowest-of-k-scores/1984-minimum-difference-between-highest-and-lowest-of-k-scores.cpp) | 🟢 Easy | Array |
