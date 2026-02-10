@@ -7,10 +7,10 @@ Collection of my LeetCode solutions in C++
 | Difficulty | Count |
 |------------|-------|
 | Easy | 14 |
-| Medium | 13 |
+| Medium | 14 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **30** |
+| **Total** | **31** |
 
 ## Problems
 
@@ -46,3 +46,4 @@ Collection of my LeetCode solutions in C++
 | 3637 | [Trionic Array I](3637-trionic-array-i/3637-trionic-array-i.cpp) | 🟢 Easy | Array |
 | 3640 | [Trionic Array Ii](3640-trionic-array-ii/3640-trionic-array-ii.cpp) | 🔴 Hard | Array |
 | 3650 | [Minimum Cost Path With Edge Reversals](3650-minimum-cost-path-with-edge-reversals/3650-minimum-cost-path-with-edge-reversals.cpp) | 🟡 Medium | Array, Graph |
+| 3719 | [Longest Balanced Subarray I](3719-longest-balanced-subarray-i/3719-longest-balanced-subarray-i.cpp) | 🟡 Medium | Array |
