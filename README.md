@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 14 |
+| Easy | 15 |
 | Medium | 15 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **32** |
+| **Total** | **33** |
 
 ## Problems
 
@@ -18,6 +18,7 @@ Collection of my LeetCode solutions in C++
 |---|---------|------------|--------|
 | 0038 | [Count And Say](0038-count-and-say/0038-count-and-say.cpp) | 🟡 Medium | String |
 | 0066 | [Plus One](0066-plus-one/0066-plus-one.cpp) | 🟢 Easy | Array |
+| 0067 | [Add Binary](0067-add-binary/0067-add-binary.cpp) | 🟢 Easy | String |
 | 0122 | [Best Time To Buy And Sell Stock Ii](0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) | 🟡 Medium | Array |
 | 0198 | [House Robber](0198-house-robber/0198-house-robber.cpp) | 🟡 Medium | Array |
 | 0744 | [Find Smallest Letter Greater Than Target](0744-find-smallest-letter-greater-than-target/0744-find-smallest-letter-greater-than-target.cpp) | 🟢 Easy | Array |
