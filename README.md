@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 15 |
+| Easy | 16 |
 | Medium | 15 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **33** |
+| **Total** | **34** |
 
 ## Problems
 
@@ -22,6 +22,7 @@ Collection of my LeetCode solutions in C++
 | 0122 | [Best Time To Buy And Sell Stock Ii](0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) | 🟡 Medium | Array |
 | 0198 | [House Robber](0198-house-robber/0198-house-robber.cpp) | 🟡 Medium | Array |
 | 0744 | [Find Smallest Letter Greater Than Target](0744-find-smallest-letter-greater-than-target/0744-find-smallest-letter-greater-than-target.cpp) | 🟢 Easy | Array |
+| 0868 | [Binary Gap](0868-binary-gap/0868-binary-gap.cpp) | 🟢 Easy | N/A |
 | 0881 | [Boats To Save People](0881-boats-to-save-people/0881-boats-to-save-people.cpp) | 🟡 Medium | Array |
 | 0944 | [Delete Columns To Make Sorted](0944-delete-columns-to-make-sorted/0944-delete-columns-to-make-sorted.cpp) | 🟢 Easy | Array |
 | 0955 | [Delete Columns To Make Sorted Ii](0955-delete-columns-to-make-sorted-ii/0955-delete-columns-to-make-sorted-ii.cpp) | 🟡 Medium | Array, String |

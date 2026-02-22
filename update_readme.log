@@ -1,4 +1,4 @@
-[debug] Found 33 problems to include in README
+[debug] Found 34 problems to include in README
 [debug] Sample entries:
  - 0038 | Count And Say | 0038-count-and-say/0038-count-and-say.cpp | Medium
  - 0066 | Plus One | 0066-plus-one/0066-plus-one.cpp | Easy
@@ -6,7 +6,7 @@
  - 0122 | Best Time To Buy And Sell Stock Ii | 0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp | Medium
  - 0198 | House Robber | 0198-house-robber/0198-house-robber.cpp | Medium
  - 0744 | Find Smallest Letter Greater Than Target | 0744-find-smallest-letter-greater-than-target/0744-find-smallest-letter-greater-than-target.cpp | Easy
+ - 0868 | Binary Gap | 0868-binary-gap/0868-binary-gap.cpp | Easy
  - 0881 | Boats To Save People | 0881-boats-to-save-people/0881-boats-to-save-people.cpp | Medium
  - 0944 | Delete Columns To Make Sorted | 0944-delete-columns-to-make-sorted/0944-delete-columns-to-make-sorted.cpp | Easy
  - 0955 | Delete Columns To Make Sorted Ii | 0955-delete-columns-to-make-sorted-ii/0955-delete-columns-to-make-sorted-ii.cpp | Medium
- - 0961 | N Repeated Element In Size 2N Array | 0961-n-repeated-element-in-size-2n-array/0961-n-repeated-element-in-size-2n-array.cpp | Easy
