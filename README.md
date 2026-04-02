@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 17 |
+| Easy | 18 |
 | Medium | 15 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **35** |
+| **Total** | **36** |
 
 ## Problems
 
@@ -39,6 +39,7 @@ Collection of my LeetCode solutions in C++
 | 2563 | [Count The Number Of Fair Pairs](2563-count-the-number-of-fair-pairs/2563-count-the-number-of-fair-pairs.cpp) | 🟡 Medium | Array |
 | 2799 | [Count Complete Subarrays In An Array](2799-count-complete-subarrays-in-an-array/2799-count-complete-subarrays-in-an-array.cpp) | 🟡 Medium | Array |
 | 2839 | [Check If Strings Can Be Made Equal With Operations I](2839-check-if-strings-can-be-made-equal-with-operations-i/2839-check-if-strings-can-be-made-equal-with-operations-i.cpp) | 🟢 Easy | String |
+| 2946 | [Matrix Similarity After Cyclic Shifts](2946-matrix-similarity-after-cyclic-shifts/2946-matrix-similarity-after-cyclic-shifts.cpp) | 🟢 Easy | Matrix |
 | 3010 | [Divide An Array Into Subarrays With Minimum Cost I](3010-divide-an-array-into-subarrays-with-minimum-cost-i/3010-divide-an-array-into-subarrays-with-minimum-cost-i.cpp) | 🟢 Easy | Array |
 | 3013 | [Divide An Array Into Subarrays With Minimum Cost Ii](3013-divide-an-array-into-subarrays-with-minimum-cost-ii/3013-divide-an-array-into-subarrays-with-minimum-cost-ii.cpp) | 🔴 Hard | Array |
 | 3379 | [Transformed Array](3379-transformed-array/3379-transformed-array.cpp) | 🟢 Easy | Array |
