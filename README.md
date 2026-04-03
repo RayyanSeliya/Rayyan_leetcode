@@ -6,11 +6,11 @@ Collection of my LeetCode solutions in C++
 
 | Difficulty | Count |
 |------------|-------|
-| Easy | 18 |
+| Easy | 19 |
 | Medium | 15 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **36** |
+| **Total** | **37** |
 
 ## Problems
 
@@ -20,6 +20,7 @@ Collection of my LeetCode solutions in C++
 | 0066 | [Plus One](0066-plus-one/0066-plus-one.cpp) | 🟢 Easy | Array |
 | 0067 | [Add Binary](0067-add-binary/0067-add-binary.cpp) | 🟢 Easy | String |
 | 0122 | [Best Time To Buy And Sell Stock Ii](0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) | 🟡 Medium | Array |
+| 0169 | [Majority Element](0169-majority-element/0169-majority-element.cpp) | 🟢 Easy | Array |
 | 0198 | [House Robber](0198-house-robber/0198-house-robber.cpp) | 🟡 Medium | Array |
 | 0744 | [Find Smallest Letter Greater Than Target](0744-find-smallest-letter-greater-than-target/0744-find-smallest-letter-greater-than-target.cpp) | 🟢 Easy | Array |
 | 0868 | [Binary Gap](0868-binary-gap/0868-binary-gap.cpp) | 🟢 Easy | N/A |
