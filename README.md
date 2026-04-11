@@ -7,10 +7,10 @@ Collection of my LeetCode solutions in C++
 | Difficulty | Count |
 |------------|-------|
 | Easy | 19 |
-| Medium | 15 |
+| Medium | 16 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **37** |
+| **Total** | **38** |
 
 ## Problems
 
@@ -53,3 +53,4 @@ Collection of my LeetCode solutions in C++
 | 3650 | [Minimum Cost Path With Edge Reversals](3650-minimum-cost-path-with-edge-reversals/3650-minimum-cost-path-with-edge-reversals.cpp) | 🟡 Medium | Array, Graph |
 | 3713 | [Longest Balanced Substring I](3713-longest-balanced-substring-i/3713-longest-balanced-substring-i.cpp) | 🟡 Medium | String |
 | 3719 | [Longest Balanced Subarray I](3719-longest-balanced-subarray-i/3719-longest-balanced-subarray-i.cpp) | 🟡 Medium | Array |
+| 3741 | [Minimum Distance Between Three Equal Elements Ii](3741-minimum-distance-between-three-equal-elements-ii/3741-minimum-distance-between-three-equal-elements-ii.cpp) | 🟡 Medium | Array |
