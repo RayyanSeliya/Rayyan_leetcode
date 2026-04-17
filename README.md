@@ -7,10 +7,10 @@ Collection of my LeetCode solutions in C++
 | Difficulty | Count |
 |------------|-------|
 | Easy | 20 |
-| Medium | 16 |
+| Medium | 17 |
 | Hard | 3 |
 | Unknown | 0 |
-| **Total** | **39** |
+| **Total** | **40** |
 
 ## Problems
 
@@ -55,3 +55,4 @@ Collection of my LeetCode solutions in C++
 | 3713 | [Longest Balanced Substring I](3713-longest-balanced-substring-i/3713-longest-balanced-substring-i.cpp) | 🟡 Medium | String |
 | 3719 | [Longest Balanced Subarray I](3719-longest-balanced-subarray-i/3719-longest-balanced-subarray-i.cpp) | 🟡 Medium | Array |
 | 3741 | [Minimum Distance Between Three Equal Elements Ii](3741-minimum-distance-between-three-equal-elements-ii/3741-minimum-distance-between-three-equal-elements-ii.cpp) | 🟡 Medium | Array |
+| 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761-minimum-absolute-distance-between-mirror-pairs/3761-minimum-absolute-distance-between-mirror-pairs.cpp) | 🟡 Medium | Array |
